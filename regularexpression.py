@@ -5,7 +5,7 @@ emails = re.findall(r"\b[\w.-]+@[\w.-]+\.\w+\b", text)
 print("All Emails: ",emails)
 
 #checking is the number is valid or not 
-number = "+92-306-1212832"
+number = "+92-333-33333"
 match = re.fullmatch(r"\+92-\d{3}-\d{7}", number)
 print("Valid" if match else "Invalid")
 
