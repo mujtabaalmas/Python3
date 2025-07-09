@@ -10,7 +10,7 @@ def countBits(n):
 print("No. of Bits: ",countBits(5))  
 #print("No. of Bits: ",countBits(7))  
 #------------------------------------------------------#
-
+    
 #Given a positive integer n, write a function that returns the number of set bits in 
 #its binary representation (also known as the Hamming weight).
 
