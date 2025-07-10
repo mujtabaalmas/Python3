@@ -5,6 +5,11 @@ from collections import Counter
 
 def longestPalindrome(s: str) -> int:
     freq = Counter(s)
+    #manaul way to count frequency instead of built-in Counter function :)
+    # for char in s:
+    #     freq[char]+=1
+    # else:
+    #     freq[char] = 1
     length = 0
     odd_found = False
     for count in freq.values():

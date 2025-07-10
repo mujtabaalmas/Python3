@@ -19,5 +19,5 @@ class Solution:
 xs = Solution()
 print("Minimmum cost:",xs.minCostClimbingStairs([1,100,1,1,1,100,1,1,100,1]))
 print('\n')
-print("Minimmum cost:",xs.minCostClimbingStairs([10,15,20]))
+print("Minimmum cost:",xs.minCostClimbingStairs([15,10,20]))
 
