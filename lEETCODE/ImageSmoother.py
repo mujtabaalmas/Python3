@@ -19,7 +19,7 @@ class Solution:
                             
                             total += img[ni][nj]
                             count += 1
-                res[i][j] = total // count  # Floor division
+                res[i][j] = total // count  # Floor divisionn
         return res
 
 sol = Solution()
