@@ -16,6 +16,10 @@ if DataofQuiz.status_code == 200:
         else:
             print("Wrong Answer\n")
     print(f"You Scored {user_score} out of {length} Questions")
+    if user_score > 6:
+        print("You Passed the Exam :)")
+    else:
+        print("You Failed Better Luck Next Time ;)")
 else:
     print("Error occured Accesing Quiz Api !!!")
     print("Status-Code ",DataofQuiz.status_code)
